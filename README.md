@@ -16,13 +16,16 @@ The script will then fetch the web page, parse its content, and perform the foll
 a. Heading Tags (h1, h2, h3, h4, h5, h6):
 
 Checks if heading tags are present on the page. If found, it marks them as "appropriate" in the results. Otherwise, it adds an error to the list.
+
 b. Title Tag:
 
 Checks if the title tag is present on the page. If found, it marks it as "appropriate" in the results. Otherwise, it adds an error to the list.
 Also, checks if the length of the title is less than or equal to 5 characters. If yes, it marks it as "appropriate" in the results. Otherwise, it adds an error.
+
 c. Meta Tags (name="description" and name="keywords"):
 
 Checks if the description and keywords meta tags are present on the page. If found, it marks them as "appropriate" in the results. Otherwise, it adds an error to the list.
+
 d. Image Alt Attribute:
 
 Checks if the alt attribute is present in any of the img tags. If found, it marks it as "appropriate" in the results. Otherwise, it adds an error to the list.
