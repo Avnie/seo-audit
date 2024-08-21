@@ -6,8 +6,6 @@ Requirements
 Python 3.x
 requests library (Install using pip install requests)
 BeautifulSoup library (Install using pip install beautifulsoup4)
-How to Use
-Install the required libraries using the above commands.
 
 Run the script and it will prompt you to enter a URL. Make sure to provide a valid URL starting with http:// or https://.
 
@@ -29,7 +27,9 @@ Checks if the description and keywords meta tags are present on the page. If fou
 d. Image Alt Attribute:
 
 Checks if the alt attribute is present in any of the img tags. If found, it marks it as "appropriate" in the results. Otherwise, it adds an error to the list.
-The script will print the analysis results, including any errors found and whether each element is appropriate or not. The results will be stored in the dict variable, which you can use for further processing if required.
+The script will print the analysis results, including any errors found and whether each element is appropriate or not. 
+
+The results will be stored in the dict variable, which you can use for further processing if required.
 
 
 
